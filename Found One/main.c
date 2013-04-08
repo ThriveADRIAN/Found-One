@@ -11,8 +11,14 @@
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    printf("Hello, World!\n");
+    for (int i = 99; i >= 0; i--){
+        if(i % 3 == 0){
+            printf("%d\n", i);
+            if (i % 5 == 0) {
+                printf("Found one!\n");
+            }
+        }
+    }
     return 0;
 }
 
